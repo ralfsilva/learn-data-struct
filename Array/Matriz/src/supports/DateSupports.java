@@ -26,7 +26,7 @@ public class DateSupports {
 		SimpleDateFormat brSdf = new SimpleDateFormat("E dd/MM/yyyy 'às' hh:mm:ss a zzz");
 		System.out.println("\nDate/hour in Brazil: " + brSdf.format(dateNow));
 		
-		System.out.println(System.currentTimeMillis());
+		// System.out.println(System.currentTimeMillis());
 		
 	}
 }
